@@ -1,0 +1,61 @@
+.container .odore,
+.container .onett,
+.container {
+  display: flex;
+  width: 206px;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.container .odore,
+.container .onett {
+  flex-direction: row;
+  height: 94px;
+}
+
+.container .odore {
+  background-image: url("img/odore-frame.png");
+  margin-bottom: 10px;
+}
+
+.container .onett {
+  background-image: url("img/onett-frame.png");
+}
+
+.container .odore *,
+.container .onett * {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 28px 0 0 6px;
+}
+
+.odore-glandula-veneno {
+  background-image: url("img/odore-glandula-veneno.png");
+}
+
+.odore-lagrima-narc {
+  background-image: url("img/odore-lagrima-narc.png");
+}
+
+.odore-semblante-valtarra {
+  background-image: url("img/odore-semblante-valtarra.png");
+}
+
+.onett-capsula-sherekan {
+  background-image: url("img/onett-capsula-sherekan.png");
+}
+
+.onett-espiritualidade-ron {
+  background-image: url("img/onett-espiritualidade-ron.png");
+}
+
+.onett-gaktunak {
+  background-image: url("img/onett-gaktunak.png");
+}
+
+.black-white {
+  filter: grayscale(1);
+}

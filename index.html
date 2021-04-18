@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+
+  <head>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="odore">
+        <div class="odore-glandula-veneno black-white"></div>
+        <div class="odore-lagrima-narc black-white"></div>
+        <div class="odore-semblante-valtarra black-white"></div>
+      </div>
+      <div class="onett">
+        <div class="onett-capsula-sherekan black-white"></div>
+        <div class="onett-espiritualidade-ron black-white"></div>
+        <div class="onett-gaktunak black-white"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript">
+  document.querySelectorAll(".odore div, .onett div").forEach((obj) => {
+    obj.addEventListener("click", (event) => {
+      if (obj.classList.contains("black-white")) {
+        obj.classList.remove("black-white");
+      } else {
+        obj.classList.add("black-white");
+      }
+    });
+  });
+</script>
